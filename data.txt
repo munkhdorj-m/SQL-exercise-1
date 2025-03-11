@@ -1,0 +1,92 @@
+DROP TABLE IF EXISTS Customers;
+DROP TABLE IF EXISTS Products;
+DROP TABLE IF EXISTS Sales;
+
+CREATE TABLE Customers (
+    customer_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    age INTEGER NOT NULL,
+    city TEXT NOT NULL
+);
+
+CREATE TABLE Products (
+    product_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    category TEXT NOT NULL,
+    price REAL NOT NULL
+);
+
+CREATE TABLE Sales (
+    sale_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    product TEXT NOT NULL,
+    customer TEXT NOT NULL,
+    quantity INTEGER NOT NULL,
+    total_price REAL NOT NULL,
+    sale_date DATE NOT NULL
+);
+
+INSERT INTO Customers (name, age, city) VALUES 
+('Alice Johnson', 25, 'New York'),
+('Bob Smith', 30, 'Los Angeles'),
+('Charlie Brown', 40, 'Chicago'),
+('David Lee', 22, 'Houston'),
+('Eve Adams', 35, 'San Francisco'),
+('Frank Wright', 28, 'Miami'),
+('Grace Hall', 33, 'Boston'),
+('Henry King', 27, 'Seattle'),
+('Ivy Moore', 45, 'Denver'),
+('Jack White', 50, 'Las Vegas'),
+('Karen Green', 26, 'New York'),
+('Liam Scott', 29, 'Chicago'),
+('Mia Carter', 31, 'San Francisco'),
+('Noah Young', 34, 'Miami'),
+('Olivia Baker', 36, 'Seattle'),
+('Paul Turner', 41, 'Boston'),
+('Quinn Evans', 39, 'Denver'),
+('Rachel Wilson', 24, 'Houston'),
+('Samuel Harris', 38, 'Los Angeles'),
+('Tina Brooks', 32, 'Las Vegas');
+
+INSERT INTO Products (name, category, price) VALUES 
+('Laptop', 'Electronics', 1200),
+('Smartphone', 'Electronics', 800),
+('Headphones', 'Accessories', 150),
+('Table', 'Furniture', 300),
+('Chair', 'Furniture', 100),
+('Monitor', 'Electronics', 400),
+('Keyboard', 'Accessories', 80),
+('Mouse', 'Accessories', 50),
+('Sofa', 'Furniture', 900),
+('Desk Lamp', 'Furniture', 60),
+('Gaming Console', 'Electronics', 500),
+('TV', 'Electronics', 1100),
+('Blender', 'Appliances', 150),
+('Microwave', 'Appliances', 250),
+('Washing Machine', 'Appliances', 700),
+('Refrigerator', 'Appliances', 1200),
+('Cookware Set', 'Kitchen', 200),
+('Vacuum Cleaner', 'Appliances', 300),
+('Electric Kettle', 'Kitchen', 50),
+('Toaster', 'Kitchen', 40);
+
+INSERT INTO Sales (product, customer, quantity, total_price, sale_date) VALUES 
+('Laptop', 'Alice Johnson', 1, 1200, '2024-01-10'),
+('Smartphone', 'Bob Smith', 2, 1600, '2024-02-15'),
+('Headphones', 'Charlie Brown', 3, 450, '2024-02-20'),
+('Table', 'David Lee', 1, 300, '2024-03-05'),
+('Chair', 'Eve Adams', 4, 400, '2024-03-10'),
+('Monitor', 'Frank Wright', 2, 800, '2024-03-12'),
+('Keyboard', 'Grace Hall', 5, 400, '2024-03-15'),
+('Mouse', 'Henry King', 2, 100, '2024-03-20'),
+('Sofa', 'Ivy Moore', 1, 900, '2024-04-01'),
+('Desk Lamp', 'Jack White', 3, 180, '2024-04-05'),
+('Gaming Console', 'Karen Green', 2, 1000, '2024-04-08'),
+('TV', 'Liam Scott', 1, 1100, '2024-04-12'),
+('Blender', 'Mia Carter', 2, 300, '2024-04-15'),
+('Microwave', 'Noah Young', 1, 250, '2024-04-18'),
+('Washing Machine', 'Olivia Baker', 1, 700, '2024-04-20'),
+('Refrigerator', 'Paul Turner', 1, 1200, '2024-04-22'),
+('Cookware Set', 'Quinn Evans', 3, 600, '2024-04-25'),
+('Vacuum Cleaner', 'Rachel Wilson', 2, 600, '2024-04-28'),
+('Electric Kettle', 'Samuel Harris', 4, 200, '2024-05-01'),
+('Toaster', 'Tina Brooks', 5, 200, '2024-05-03');
