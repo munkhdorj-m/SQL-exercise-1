@@ -1,34 +1,24 @@
-# Pseudocode Exercise 1 
+# SQL Exercise 
+
+Sample data is given in data.txt file. You should execute sql code in database management system.
 
 ---
 
-## Exercise 1
+## 1. Find all customers from New York.
 
-Find the greater of two given numbers.
+## 2. List all electronics products, ordered by price in descending order.
 
----
+## 3. Count the total number of customers.
 
-## Exercise 2
+## 4. Find the total revenue (sum of total_price) from all sales.
 
-Find the product of the digits of a 3-digit number.
+## 5. Find the number of sales made after March 1, 2024.
 
----
+## 6. Find the most expensive product.
 
-## Exercise 3
+## 7. Find all sales where the quantity is more than 3.
 
-Find whether a given number is positive, negative, or zero.
-
----
-
-## Exercise 4
-
-Write pseudo code that tells a user that the number they entered is not a 5. If the input number is 5 output the "your number is 5”.
-
----
-
-## Exercise 5
-
-Find the difference between the largest and smallest digits of a 3-digit number.
+## 8. Find the total number of items sold.
 
 ---
 
