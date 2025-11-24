@@ -1,8 +1,8 @@
-# SQL Exercise 
+# SQL Exercise 1
 
 Sample data is given in data.txt file. You should execute sql code in database management system.
 
-#Examples:
+## Examples:
 
 ### 1. Find all customers from New York.
 
@@ -24,7 +24,7 @@ FROM Customers;`
 
 ---
 
-#Exercises:   
+## Exercises:   
 
 ### 1. Show all customers who live in “Chicago”.
 
