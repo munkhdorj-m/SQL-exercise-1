@@ -26,19 +26,19 @@ FROM Customers;`
 
 ## Exercises:   
 
-### 1. Show all customers who live in “Chicago”.
+1. Show all customers who live in “Chicago”.
 
-### 2. List all products that cost less than 50.
+2. List all products that cost less than 50.
 
-### 3. Count how many products are in the “Clothing” category.
+3. Count how many products are in the “Clothing” category.
 
-### 4. Find the total revenue (sum of total_price) from all sales.
+4. Find the total revenue (sum of total_price) from all sales.
 
-### 5. Find all sales where total_price is more than 200.
+5. Find all sales where total_price is more than 200.
 
-### 6. Find the number of sales made after March 1, 2024.
+6. Find the number of sales made after March 1, 2024.
 
-### 7. Find all sales where the quantity is more than 3.
+7. Find all sales where the quantity is more than 3.
 
 ### 8. Find the total number of items sold.
 
