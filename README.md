@@ -40,7 +40,7 @@ FROM Customers;`
 
 7. Find all sales where the quantity is more than 3.
 
-### 8. Find the total number of items sold.
+8. Find the total number of items sold.
 
 ---
 
