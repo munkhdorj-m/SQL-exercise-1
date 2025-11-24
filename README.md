@@ -6,21 +6,21 @@ Sample data is given in data.txt file. You should execute sql code in database m
 
 ### 1. Find all customers from New York.
 
-`SELECT *  
-FROM Customers  
-WHERE city = 'New York';`  
+`SELECT *
+FROM Customers
+WHERE city = 'New York';`
 
 ### 2. List all electronics products, ordered by price in descending order.
 
-`SELECT *  
-FROM Products  
-WHERE category = 'Electronics'  
-ORDER BY price DESC;`  
+`SELECT *
+FROM Products
+WHERE category = 'Electronics'
+ORDER BY price DESC;`
 
 ### 3. Count the total number of customers.
 
-`SELECT COUNT(*) AS total_customers  
-FROM Customers;`  
+`SELECT COUNT(*) AS total_customers
+FROM Customers;`
 
 ---
 
