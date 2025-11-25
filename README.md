@@ -1,5 +1,8 @@
 # SQL Exercise 1
 
+SQL PDF:
+https://drive.google.com/file/d/1d6qZTlxu_g44G1RraEx_snEtDkgQVbQz/view?usp=sharing
+
 Sample data is given in data.txt file. You should execute sql code in database management system.
 
 ## Examples:
